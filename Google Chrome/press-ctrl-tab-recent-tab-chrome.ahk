@@ -1,7 +1,7 @@
 ﻿#Requires AutoHotkey v2.0
 
-; Ctl+Tab in MS Edge to goto recent
-#HotIf WinActive("ahk_exe msedge.exe")
+; Ctl+Tab in Google Chrome to goto recent
+#HotIf WinActive("ahk_exe chrome.exe")
     prevTab()
     {
         Send("^+a")
